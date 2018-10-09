@@ -54,10 +54,10 @@ public class marketAnalysis {
             f.arroonDown();
             f.rateOfChange();
             f.RSI();
-            create array for all above numbers
-            print array as strings with name of indicator before each Int
+            //create array for all above numbers
+            //print array as strings with name of indicator before each Int
 
-                outputPanel = new JPanel();
+            outputPanel = new JPanel();
             outputLabel = new JLabel("Enter values above, and click a button");
             outputPanel.add(outputLabel);
             outputPanel.setBackground(Color.yellow);
