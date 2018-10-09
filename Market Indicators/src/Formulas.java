@@ -166,7 +166,7 @@ public class Formulas {
 
     } 
     //Relative Strength Indicator
-    public float[] RSI(float[][] data) {
+    public float RSI(float[][] data) {
 
 	int z = 0;
         int v = 0;
