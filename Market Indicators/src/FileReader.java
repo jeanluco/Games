@@ -91,10 +91,10 @@ public class FileReader {
 
     try {
          connection = DriverManager.getConnection(url, user, password);
-         Statement one = (Statement) con.createStatement(); 
+         Statement one = (Statement) connection.createStatement(); 
 
          st.executeUpdate("INSERT INTO table_name (col1, col2, col3,...)
-VALUES (val1, val2, val3,...)
+    VALUES (val1, val2, val3,...)
 
 
 
