@@ -1,2 +1,1 @@
-# Projects---J
-Various projects
+# Projects---Java
