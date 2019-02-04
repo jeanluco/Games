@@ -2,10 +2,15 @@ import java.util.*;
 import java.text.SimpleDateFormat;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.
 =======
 =======
 >>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
+import java.util.stream;
+
+>>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
+=======
 import java.util.stream;
 
 >>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
@@ -88,6 +93,7 @@ public class Formulas {
         for (float number : result) {
             System.out.print(number + " "); 
             return result;
+<<<<<<< HEAD
         }
     }
     //Array of Min for all data columns
@@ -133,12 +139,58 @@ public class Formulas {
 
 =======
 
+=======
+>>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
+        }
+        return smaverage;
+    }
+<<<<<<< HEAD
+
+>>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
+
+=======
+    //Array of Min for all data columns
+    public float[] findMin(float[][] rawdata) {
+        float[] result = rawdata[0];
+        for (int roww = 1; roww < rawdata.length; roww++) {
+            for (int column = 1; column < array[0].length; column++) {
+                if (array[roww][column] < result[column]) {
+                    result[column] = array[roww][column];
+                }
+            }
+        }
+        for (float number : result) {
+            System.out.print(number + " "); 
+            return result;
+        }
+    }
+	
+    //Simple Moving Average
+    public float SMA(float[][] rawdata) {
+        while (line != null) {
+            int row = 0;
+            int col = 0;
+            int a = 0;
+            float answer[];
+
+            for (row = 0; row < rawdata.length; row++) {
+                answer[a] = rawdata[row][6];
+                row++;
+                a++;
+            }
+            int sum = 0;
+            for (float d : answer) {
+                sum += d;
+            }
+            float smaverage;
+            smaverage = (float) sum / answer.length;
+
         }
         return smaverage;
     }
 
->>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
 
+>>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
     //Arroon
     public float[] arroonUp(float[][] rawdata) {
         float[] j = findMax(rawdata);
@@ -192,10 +244,13 @@ public class Formulas {
             int loss = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             float[] j = b - a;
             if (j[i] > 0) {
                 float[gain]gains =j[i];
 =======
+=======
+>>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
 =======
 >>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
             float[] w;
@@ -203,6 +258,9 @@ public class Formulas {
             if (w[v] > 0) {
                 float[gain]gains =w[v];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
+=======
 >>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
 =======
 >>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
@@ -213,6 +271,7 @@ public class Formulas {
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             g++;
             i++;
         }
@@ -221,6 +280,8 @@ public class Formulas {
         
 
 =======
+=======
+>>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
 =======
 >>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
             z++;
@@ -235,6 +296,9 @@ public class Formulas {
         return RSI;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
+=======
 >>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
 =======
 >>>>>>> dc536abee7d88e39a4c2116e92e4fc7db6dc6634
