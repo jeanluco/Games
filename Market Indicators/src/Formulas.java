@@ -1,6 +1,6 @@
 import java.util.*;
 import java.text.SimpleDateFormat;
-
+import java.
 public class Formulas {
 
     ReadFiles r = new ReadFiles();
@@ -173,8 +173,7 @@ public class Formulas {
             int loss = 0;
             float[] j = b - a;
             if (j[i] > 0) {
-                float[gain]gains;
-			   =j[i];
+                float[gain]gains =j[i];
                 gain++;
             } else if (j[i] < 0) {
                 float [loss]losses = j[i];
@@ -184,6 +183,8 @@ public class Formulas {
             i++;
         }
         return j;
+        Arrays.stream(array).sum();
+        
 
     }
 }
