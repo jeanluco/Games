@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Games
 
 Pokemon Draft and Battle
@@ -11,7 +10,3 @@ Pokemon Draft and Battle
 
 -Teams will alternate choosing moves to attack eachother's Pokemon until HP is depleted and winner is decided.
 
-
-=======
-# Projects---Java
->>>>>>> parent of b283926... Update
